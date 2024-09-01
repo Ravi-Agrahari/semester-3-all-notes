@@ -1,0 +1,57 @@
+<!-- form to get the detail of user such as name, email, password, confirm password, gender, and about yourself. --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <hr>
+    <h1> <u> Fill in the given details. </u></h1>
+    <label for="name">Name : </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"> 
+    <br>
+
+    <label for="email">Email : </label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br>
+
+    <label for="password">Password : </label> 
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br>
+
+    <label for="confirm_password">Confirm Password : </label>
+    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password">
+    <br>
+
+    <label for="dept"> Enter the Department : </label>
+    <select name="dept" id="dept">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+        <option value="IT">IT</option>
+    </select>
+    <br>
+
+    <label for="gender" >Gender : </label>
+    <input type="radio" id="male" name="gender" value="male"> Male 
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <input type="radio" id="other" name="gender" value="other"> Others
+    <br>
+
+    <label for="about">About Yourself : </label>
+    <textarea id="about" name="about" placeholder="Write something about yourself"></textarea>
+    <br>
+
+    <button id="submit">Submit</button>
+    <button id="reset">Reset</button>
+    <button id="cancel">Cancel</button>
+
+    <hr>
+
+</body>
+</html>
